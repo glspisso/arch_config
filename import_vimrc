@@ -9,12 +9,12 @@ cat ~/.vimrc | grep "map\|noremap\|nmap\|nnoremap" > ~/tmp.txt
 IFS=$'\n'
 for i in $(cat ~/tmp.txt)
 do
-    echo $i | cut -d " " -f3
-    echo $i | cut -d " " -f2
-#    vim +"%s /    ${cur}$/    ${new}TMP/ceI" +"wq" ~/.config/qutebrowser/keys.conf
-done
+    cur=$(echo $i | cut -d " " -f3)
+        new=$(echo $i | cut -d " " -f2)
+            vim +"%s /    ${cur}$/    ${new}TMP/ceI" +"wq" ~/.config/qutebrowser/keys.conf
+            done
 
-# Remove the TMP which stops remapping recursively
-# vim +"%s /TMP$//" +"wq" ~/dummyqute
-# Remove the file used for catching the mappings
-# rm ~/tmp.txt
+            # Remove the TMP which stops remapping recursively
+            vim +"%s /TMP$//" +"wq" ~/.config/qutebrowser/keys.conf
+            # Remove the file used for catching the mappings
+            rm ~/tmp.txt

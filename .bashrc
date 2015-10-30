@@ -7,12 +7,16 @@
 
 alias ls='ls --color=auto'
 alias cf="cd -P"
-alias ll="ls -l"
-alias ll="ls -a"
+alias ll="ls -lh"
+alias la="ls -a"
 alias finh="find ./ -name"
 alias cd..="cd .."
 alias klogout="qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
 alias pacman="sudo pacman"
 alias add="git add"
+# This lines puts the ~/bin folder in the $PATH at startup
+# hence commands or symlink to commands in it will
+# be run from everywhere in the system
+export PATH="$PATH:$HOME/bin"
 
 PS1='[\u@\h \W]\$ '

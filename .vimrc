@@ -11,7 +11,9 @@ noremap j h
 set noet ci pi sts=0 sw=2 ts=2 " Set indent command > 2 tabs
 set autoindent
 nmap <F1> :!texpile <enter>
-nnoremap K a<CR><Esc>
+nmap <F2> :!./launch_main <enter>
+set pastetoggle=<F3>
+nnoremap K $a<CR><Esc>
 nnoremap <Tab> <Esc>
 vnoremap <Tab> <Esc>gV
 onoremap <Tab> <Esc>
