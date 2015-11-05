@@ -7,10 +7,12 @@ import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks  
 import XMonad.Util.Run  
 import System.IO  
-
+-- Import keybind utility
+import XMonad.Util.EZConfig  
+import Graphics.X11.ExtraTypes.XF86
 -- import XMonad.Actions.Volume
 
-defaultLayouts = tiled ||| Mirror tiled ||| Full  
+myLayout = tiled ||| Mirror tiled ||| Full  
  where  
       -- default tiling algorithm partitions the screen into two panes  
       tiled = Tall nmaster delta ratio  
@@ -22,26 +24,30 @@ defaultLayouts = tiled ||| Mirror tiled ||| Full
       ratio = 2/3  
    
       -- Percent of screen to increment by when resizing panes  
-      delta = 5/100  	
-
+      delta = 5/100 
 -- Define layout for specific workspaces
-nobordersLayout = noBorders $ Full
+-- nobordersLayout = noBorders $ Full
 
-myLayout = onWorkspace "2:chat" nobordersLayout $ defaultLayouts
+-- myLayout = defaultLayouts  -- onWorkspace "2:browser" nobordersLayout $
 
 -- Define amount and names of workspaces  
-myWorkspaces = ["1:main","2:chat","3:pdf","whatever","5:media","6","7","8:web"]  
+myWorkspaces = ["1:main","2:browser","3:pdf","whatever","5:media","6","7","8:web","9:chat"]  
 
 -- Start application in a predefined window
 myManageHook = composeAll  
      [ className =? "Chromium" --> doShift "8:web"  
-     , className =? "Skype" --> doShift "2:chat"  
+     , className =? "qutebrowser" --> doShift "2:browser"  
+     , className =? "Vlc" --> doShift "5:media"  
+     , className =? "Skype" --> doShift "9:chat"  
+     , className =? "Okular" --> doShift "3:pdf"  
      ]   		
 
 main = do
 xmproc <- spawnPipe "/usr/bin/xmobar ~/.xmobarrc"   
 xmonad $ defaultConfig
-	{ layoutHook = avoidStruts $ myLayout 
+	{ manageHook = manageDocks <+> myManageHook 
+														 <+> manageHook defaultConfig
+ 	, layoutHook = avoidStruts $ layoutHook defaultConfig  	
 	, logHook = dynamicLogWithPP xmobarPP  
 	   { ppOutput = hPutStrLn xmproc  
 	   , ppTitle = xmobarColor "blue" "" . shorten 50   
@@ -49,11 +55,16 @@ xmonad $ defaultConfig
 	   }     
 	, modMask            = mod4Mask  -- Rebind Mod to the Windows key
 	, borderWidth        = 2
-	--, ((modMask x, xK_F7), lowerVolume 3 >> return ())
-	--, ((modMask x, xK_F8), raiseVolume 3 >> return ())
-	--, ((modMask x, xK_F6), toggleMute    >> return ())
 	, terminal           = "terminology"
 	, normalBorderColor  = "#cccccc"
 	, focusedBorderColor = "#cd8b00" 
  	, workspaces = myWorkspaces 
- 	, manageHook = myManageHook <+> manageHook defaultConfig}
+ 	}`additionalKeys`  
+  [(( mod4Mask, xK_b), spawn "qutebrowser") -- to open qutebrowser  
+  ,(( mod4Mask, xK_p), spawn "terminology") -- to open terminology  
+  ,(( mod4Mask, xK_c), spawn "chromium") -- to open terminology  
+  ,(( mod4Mask, xK_s), spawn "skype") -- to open terminology  
+  ,(( mod4Mask .|. shiftMask, xK_F5), spawn "reboot") -- window key + Shift + F4 to shutdown system  
+  ,(( mod4Mask .|. shiftMask, xK_F4), spawn "shutdown -h now") -- window key + Shift + F4 to shutdown system  
+  ,(( mod4Mask, xK_F4), kill) -- to kill applications  
+  ]	
