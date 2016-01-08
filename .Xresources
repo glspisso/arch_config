@@ -1,0 +1,36 @@
+! Background color
+URxvt*background: black
+
+! Font color
+URxvt*foreground: grey90
+! URxvt.bold: xft:bitstream vera sans mono:bold:size=26:antialias=true
+URxvt*font:xft:Bitstream Vera Sans Mono:bold:autohint=true:pixelsize=20	
+! URxvt*italicFont:  xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=12
+! URxvt*boldItalicFont:  xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=12	
+! Other colors
+URxvt.letterSpace: -1
+urxvt*color0:                #000000
+urxvt*color1:                #b33636
+urxvt*color2:                #6ba82a
+urxvt*color3:                #deaf40
+urxvt*color4:                #5a78ad
+
+! Pinkish - magenta
+urxvt*color5:                #ab4382 
+
+! Blue for comments
+urxvt*color6:                #39a0b3
+
+urxvt*color7:                #c8c8c8
+urxvt*color8:                #646464
+urxvt*color9:                #e61717
+urxvt*color10:                #78dc0c
+urxvt*color11:                #f1e022
+urxvt*color12:                #699dfa
+urxvt*color13:                #de2a98
+urxvt*color14:                #13d1f3
+urxvt*color15:                #ffffff
+! Copy,paste with humane commands
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard

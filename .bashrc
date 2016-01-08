@@ -28,4 +28,5 @@ alias scan="sudo iw dev wlp2s0 scan | grep SSID"
 # be run from everywhere in the system
 export PATH="$PATH:$HOME/bin"
 
-PS1='[\u@\h \W]\$ '
+# PS1='[\u@\h \W]\$ '
+PS1='\[\e[0;36m\]\W \$\[\e[0m\] '

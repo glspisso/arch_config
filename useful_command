@@ -1,0 +1,26 @@
+#! bin/bash/ # This is NOT a bash script
+
+# A list of useful commands
+
+nohup rsync -a --delete empty/ target_dir &   # Empty directory fast, use mkdir empty beforehand
+startx -- :2                                 # From tty start new X session on screen 2
+xrdb /path/to/file # Reload X configs file like ~/.Xresources
+
+# Timezone
+timedatectl # Current zone
+timedatectl list-timezones 
+timedatectl set-timezone 
+
+# Dir size
+du -sh
+
+# Backup installed packages
+pacman -Qqe | grep -v "$(pacman -Qqm)" > pacman.lst
+# Cursor endl ; ; bring previous line back
+# Ctrl + E ; Ctrl  +U ; Ctrl + Y 
+
+# Change application associated with filetype
+$ xdg-mime default llpp.desktop application/pdf
+
+# Burn usb
+# dd bs=4M if=archlive/out/archlinux-2016.01.06-dual.iso of=/dev/sdb && sync
