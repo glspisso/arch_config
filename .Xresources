@@ -34,3 +34,23 @@ urxvt*color15:                #ffffff
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
+
+! Native transparency
+
+URxvt*inheritPixmap: true
+URxvt*.transparent: true
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 25
+
+!scrollbar style
+URxvt.scrollstyle: xterm
+URxvt.cursorColor: #00FF00 
+! do not scroll with output
+URxvt*scrollTtyOutput: true
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+URxvt*saveLines: 50000

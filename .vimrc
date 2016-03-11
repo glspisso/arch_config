@@ -1,5 +1,23 @@
 " VIM Configuration file
+set mouse=a
+set complete+=k " Autocomplete on
+set completeopt+=longest
+"" set clipboard+=unnamed
+set backspace=2
+set ww=<,>,[,] "whichwrap -- l/r keys traverse u/d
+
+" wrap like other editors
+set wrap                " word wrap
+set textwidth=0         " 
+set lbr                 " line break
+set display=lastline    " don't display @ with long paragraphs
+
+" backup settings
+set backup              " keep a backup file
+set backupdir=/tmp      " backup dir
+set directory=/tmp      " swap file directory
 syn on
+
 set number " Set line number on
 set ts=2 " Set tab to be two spaces
 set hls " Highlight search terms
@@ -10,13 +28,22 @@ noremap k j
 noremap j h
 set noet ci pi sts=0 sw=2 ts=2 " Set indent command > 2 tabs
 set autoindent
-nmap <F1> :!./compile_main_file <enter>
+
+" spell check
+map <F12> :w<CR>:!aspell -c %<CR><CR>:e<CR><CR> 
+
+nmap <F1> :mak <enter>
+nmap <F2> :cn  <enter>
+nmap <F3> :cp  <enter>
+nmap <F4> :!./%< <enter>
+
 nmap <F5> :!./texpile <enter>
-nmap <F2> :!make <enter>
-nmap <F3> :!./1d_version 100 100000 0.01 true 1 <enter>
-set pastetoggle=<F4>
-nnoremap K $a<CR><Esc>
-nnoremap <Tab> <Esc>
-vnoremap <Tab> <Esc>gV
-onoremap <Tab> <Esc>
-inoremap <Tab> <Esc>`^
+nmap <F6> :!pdflatex %< <enter>
+set pastetoggle=<F11>
+nnoremap K i<CR><Esc>		" break line under cursor with K
+colorscheme zellner " define syntax color scheme
+" asmdev  baycomb breeze asmanian2 cool cthulian darkblue2
+
+set foldmethod=syntax
+set autochdir
+set autoread
