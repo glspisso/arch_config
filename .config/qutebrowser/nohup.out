@@ -1,0 +1,136 @@
+kscreen: launcherDataAvailable: "org.kde.KScreen.Backend.XRandR"
+kscreen: Launcher finished with exit code 1 , status 0
+kscreen: Service for requested backend already running
+kscreen: Primary output changed from KScreen::Output(Id: 66 , Name: "eDP-0" ) ( "eDP-0" ) to KScreen::Output(Id: 66 , Name: "eDP-0" ) ( "eDP-0" )
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+file:///usr/share/plasma/plasmoids/org.kde.desktopcontainment/contents/ui/FolderView.qml:366:13: QML GridView: Binding loop detected for property "overflowing"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+kscreen: Primary output changed from KScreen::Output(Id: 66 , Name: "eDP-0" ) ( "eDP-0" ) to KScreen::Output(Id: 66 , Name: "eDP-0" ) ( "eDP-0" )
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+No metadata file in the package, expected it at: "/media/home_partition/gian/Pictures/Wallpapers//metadata.desktop"
+Known plasmoid ids: QHash(("org.kde.plasma.clipboard", 85)("org.kde.plasma.mediacontroller", 91)("org.kde.plasma.networkmanagement", 89)("org.kde.plasma.devicenotifier", 86)("org.kde.plasma.battery", 88)("org.kde.plasma.printmanager", 94)("org.kde.plasma.notifications", 87)("org.kde.plasma.volume", 92))
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+unversioned plugin detected, may result in instability
+Notifications service registered
+XSync seems available and ready
+XSync Inited
+Supported, init completed
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:106:17: Unable to assign [undefined] to QObject*
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:85: TypeError: Cannot read property 'effectivePressed' of undefined
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:106:17: Unable to assign [undefined] to QObject*
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:85: TypeError: Cannot read property 'effectivePressed' of undefined
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+libkcups: Create-Printer-Subscriptions last error: 0 successful-ok
+libkcups: Get-Jobs last error: 0 successful-ok
+libkcups: Get-Jobs last error: 0 successful-ok
+Plasma Shell startup completed
+file:///usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/printmanager.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/printmanager.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/printmanager.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.printmanager/contents/ui/printmanager.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.digitalclock/contents/ui/DigitalClock.qml:428:5: QML Text: Cannot anchor to a null item.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+Both point size and pixel size set. Using pixel size.
+libkcups: 0
+ST : DBus service  "org.freedesktop.NetworkManager" appeared. Loading  "org.kde.plasma.networkmanagement"
+unversioned plugin detected, may result in instability
+libkcups: 0
+ST : DBus service  "org.kde.Solid.PowerManagement" appeared. Loading  "org.kde.plasma.battery"
+unversioned plugin detected, may result in instability
+plasma-nm: Failed to enumerate BT adapters
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+networkmanager-qt: void NetworkManager::NetworkManagerPrivate::propertiesChanged(const QVariantMap&) Unhandled property "Devices"
+Both point size and pixel size set. Using pixel size.
+file:///usr/lib/qt/qml/QtQuick/Controls/ScrollView.qml:286: TypeError: Cannot read property '__wheelScrollLines' of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:66: TypeError: Cannot read property 'padding' of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:65: TypeError: Cannot read property 'padding' of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:64: TypeError: Cannot read property 'padding' of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:63: TypeError: Cannot read property 'padding' of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollViewHelper.qml:114: TypeError: Cannot read property 'corner' of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollBar.qml:91: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Private/ScrollBar.qml:91: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+file:///usr/lib/qt/qml/QtQuick/Controls/Button.qml:96: TypeError: Cannot read property of null
+QQuickItem::ungrabMouse(): Item is not the mouse grabber.
+Opening item with URL "/usr/share/applications/geany.desktop"
+Recent app added "geany.desktop" 1
+More than the maximal  5  services added.  Removing "org.kde.dolphin.desktop" from queue.
+no winId: probably startup task
+libkcups: Renew-Subscription last error: 0 successful-ok
+QQuickItem::ungrabMouse(): Item is not the mouse grabber.
+Opening item with URL "/usr/share/applications/systemsettings.desktop"
+Duplicate entry added.  Removing existing entry from queue.
+Recent app added "systemsettings.desktop" 2
+no winId: probably startup task
+created new desk group
+libkcups: Renew-Subscription last error: 0 successful-ok
+created new desk group
+created new desk group
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.battery/contents/ui/batterymonitor.qml: QML Plasmoid: Cannot anchor to an item that isn't a parent or sibling.
+file:///usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/StatusNotifierItem.qml:131:13: QML Image: Failed to get image from provider: image://icon/
+QXcbConnection: XCB error: 3 (BadWindow), sequence: 53586, resource id: 52428801, major code: 142 (Unknown), minor code: 3
+Service "org.kde.StatusNotifierWatcher" status change, old owner: ":1.6" new: ""
+"org.kde.StatusNotifierWatcher" disappeared
+ICE default IO error handler doing an exit(), pid = 1710, errno = 11
